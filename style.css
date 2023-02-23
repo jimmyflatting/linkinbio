@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+  overflow-y: hidden;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.social {
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.profile-img {
+  border: 2px solid rgba(255, 255, 255, 0.05);
+}
+
+a {
+  text-decoration: none;
+  color: var(--light);
+}
+
+#body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
