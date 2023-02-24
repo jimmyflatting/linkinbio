@@ -7,11 +7,21 @@
 
 .social {
   background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(255, 63, 129, 0.25);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@keyframes hover-me {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
+
+.social:hover .bi-chevron-right {
+    animation: hover-me 1s ease-in-out infinite;
 }
 
 .profile-img {
